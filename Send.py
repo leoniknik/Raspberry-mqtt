@@ -19,14 +19,27 @@ radio.setAutoAck(True)
 radio.enableDynamicPayloads()
 radio.enableAckPayload()
 
+radio.openWritingPipe(pipes[0])
 radio.openReadingPipe(1, pipes[1])
 radio.printDetails()
-radio.startListening()
+# radio.startListening()
+
+message = list("GETSTRING")
+while len(message) < 32:
+    message.append(0)
 
 while(1):
-    # ackPL = [1]
+    start = time.time()
+    radio.write(message)
+    print("Sent the message: {}".format(message))
+    radio.startListening()
+
     while not radio.available(0):
         time.sleep(1 / 100)
+        if time.time() - start > 2:
+            print("Timed out.")
+            break
+
     receivedMessage = []
     radio.read(receivedMessage, radio.getDynamicPayloadSize())
     print("Received: {}".format(receivedMessage))
@@ -38,3 +51,6 @@ while(1):
         if (n >= 32 and n <= 126):
             string += chr(n)
     print("Out received message decodes to: {}".format(string))
+
+    radio.stopListening()
+    time.sleep(1)
