@@ -1,153 +1,161 @@
-# -*- coding: utf-8 -*-
-"""
-	client helpers
-"""
-__author__	= """Alexander Krause <alexander.krause@ed-solutions.de>"""
-__date__ 		= "2016-07-05"
-__version__	= "0.2.1"
-__credits__	= """Copyright e-design, Alexander Krause <alexander.krause@ed-solutions.de>"""
-__license__	= "MIT"
-
+import RPi.GPIO as GPIO
 import time
-import socket
+import os, json
+import ibmiotf.application
+import ibmiotf.device
+import uuid
+from lib_nrf24 import NRF24
+import spidev
 
-from . import common
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
 
-class TCP_Client(object):
-	_Server=None
-	_Port=None
-	_Socket=None
-	_MessageID=None
-	_t_lastRX=None
-	_lastToken=None
-	
-	t_Ping=5
-	connected=False
-	
-	def __init__(self,server='blynk-cloud.com',port=8442):
-		self._Server=server
-		self._Port=port
-		
-	def connect(self,timeout=3):
-		print('connected')
-		self.close()
-		self._MessageID=0
-		self._Socket=socket.create_connection(
-			(self._Server,self._Port),
-			timeout
-		)
-		self._Socket.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
-		
-		if self._Socket:
-			self.connected=True
-		return self._Socket
-		
-	def close(self):
-		if self._Socket:
-			self._Socket.close()
-		self.connected=False
+##### NRF
+pipes = [[0xE8, 0xE8, 0xF0, 0xF0, 0xE1], [0xF0, 0xF0, 0xF0, 0xF0, 0xE1]]
 
-			
-	def tx(self,data):
-		#print('tx',data)
-		if self._Socket:
-			try:
-				self._Socket.sendall(data)
-			except Exception:
-				self.connected=False
-			
-	def rx(self,length):
-		if self._Socket:
-			d = []
-			l = 0
-			while l < length:
-				r = ''
-				try:
-					r = self._Socket.recv(length-l)
-					self._t_lastRX=time.time()
-				except socket.timeout:
-					#print('rx-timeout')
-					return ''
-				except Exception as e:
-					print('rx exception',str(e))
-					self.connected=False
-					return ''
-				if not r:
-					self.connected=False
-					return ''
-				d.append(r)
-				#print(d)
-				l = l + len(r)
-				
-			ret=bytes()
-			for cluster in d:
-				ret=ret+cluster
-			return ret
-		
-	def rxFrame(self):
-		response=self.rx(common.ProtocolHeader.size)
-		if response:
-			return common.ProtocolHeader.unpack(response)
-		
-	def txFrame(self,msg_type,data):
-		self.tx(
-			common.ProtocolHeader.pack(
-				msg_type,
-				self.newMessageID(),
-				data
-			)
-		)
-	def txFrameData(self,msg_type,data):
-		self.tx(
-			common.ProtocolHeader.pack(
-				msg_type,
-				self.newMessageID(),
-				len(data)
-			)+data.encode('ascii')
-		)
-	
-	def newMessageID(self):
-		self._MessageID=self._MessageID+1
-		return self._MessageID
-	
-	def auth(self,token=None):
-		if not token and self._lastToken:
-			token=self._lastToken
-		elif token:
-			self._lastToken=token
-		else:
-			return False
-		
-		self.txFrame(common.MSG_LOGIN,len(token))
-		self.tx(str(token).encode('ascii'))
-		response=self.rxFrame()
-		if response:
-			msg_type, msg_id, msg_status = response
+broadcast = 40
+pool_arduino = []
 
-			if (msg_status==common.MSG_STATUS_OK):
-				print("Auth successfull")
-				return True
-		
-	def Ping(self):
-		print("Ping...")
-		self.txFrame(common.MSG_PING,0)
-		rx_frame=self.rxFrame()
-		if rx_frame and \
-				(rx_frame[0]==common.MSG_RSP)  and \
-				(rx_frame[1]==self._MessageID) and \
-				(rx_frame[2]==common.MSG_STATUS_OK):
-			print("...Pong")
-			return True
-		
-	def keepConnection(self):
-		if not self.connected:
-			if self.connect() and self.auth():
-				return True
-			else:
-				time.sleep(1)
-				return False
-		if (self._t_lastRX+self.t_Ping)<time.time():
-			self.Ping()
-			
-			
-		
+radio = NRF24(GPIO, spidev.SpiDev())
+radio.begin(0, 17)
+
+radio.setPayloadSize(32)
+radio.setChannel(broadcast)
+radio.setDataRate(NRF24.BR_1MBPS)
+radio.setPALevel(NRF24.PA_MIN)
+
+radio.setAutoAck(True)
+radio.enableDynamicPayloads()
+radio.enableAckPayload()
+
+radio.openWritingPipe(pipes[0])
+radio.openReadingPipe(1, pipes[1])
+radio.printDetails()
+
+def NRF_check_pool():
+    if len(pool_arduino) == 3:
+        return False
+    else:
+        return True
+
+def NRF_get_channel():
+    return 30
+
+def NRF_offer(channel):
+    print("NRF_OFFER: " + str(channel))
+    message = []
+    message.append(channel)
+    while len(message) < 32:
+        message.append(0)
+    print(message)
+    radio.write(message)
+
+def NRF_ack():
+    message = list("NRF_ACK")
+    while len(message) < 32:
+        message.append(0)
+    print(message)
+    radio.write(message)
+
+def NRF_request(channel):
+    radio.setChannel(channel)
+    start = time.time()
+    radio.startListening()
+
+    while not radio.available(0):
+        time.sleep(1 / 100)
+        if time.time() - start > 5:
+            print("Timed out request")
+            return
+
+    receivedMessage = []
+    radio.read(receivedMessage, radio.getDynamicPayloadSize())
+    print("Received: {}".format(receivedMessage))
+
+    string = ""
+    for n in receivedMessage:
+        if (n >= 32 and n <= 126):
+            string += chr(n)
+    print(string)
+    if string == "NRF_REQUEST":
+        radio.stopListening
+        pool_arduino.append(channel)
+        NRF_ack()
+    radio.stopListening()
+
+def NRF_broadcast():
+    radio.setChannel(broadcast)
+    start = time.time()
+    radio.startListening()
+
+    while not radio.available(0):
+        time.sleep(1 / 100)
+        if time.time() - start > 2:
+            print("Timed out broadcast")
+            return
+
+    receivedMessage = []
+    radio.read(receivedMessage, radio.getDynamicPayloadSize())
+    print("Received: {}".format(receivedMessage))
+
+    string = ""
+    for n in receivedMessage:
+        if (n >= 32 and n <= 126):
+            string += chr(n)
+    print(string)
+    if string == "NRF_DISCOVER":
+        if NRF_check_pool():
+            new_channel = NRF_get_channel()
+            radio.stopListening()
+            NRF_offer(new_channel)
+            NRF_request(new_channel)
+    radio.stopListening()
+
+def NRF_receive():
+    for channel in pool_arduino:
+        radio.setChannel(channel)
+        radio.startListening()
+        start = time.time()
+        while not radio.available(0):
+            time.sleep(1 / 100)
+            if time.time() - start > 3:
+                print("Timed out channel " + str(channel))
+                return
+        receivedMessage = []
+        radio.read(receivedMessage, radio.getDynamicPayloadSize())
+        print("Received: {}".format(receivedMessage))
+        return receivedMessage
+##### NRFEND
+
+client = None
+
+organization = "kjmozg"
+deviceType = "raspberry-leoniknik-0417"
+deviceId = "raspberry-leo-0417"
+appId = str(uuid.uuid4())
+authMethod = "token"
+authToken = "qZG7Jy*)n1OHRJtr3G"
+
+def myCommandCallback(cmd):
+    print("Command received: %s" % cmd.command)
+    if cmd.command == "light":
+        command = cmd.data["command"]
+        print(command)
+
+try:
+    deviceOptions = {"org": organization, "type": deviceType, "id": deviceId, "auth-method": authMethod, "auth-token": authToken}
+    client = ibmiotf.device.Client(deviceOptions)
+    client.connect()
+    client.commandCallback = myCommandCallback
+
+    while True:
+        NRF_broadcast()
+        print(pool_arduino)
+        NRF_data = NRF_receive()
+        if NRF_data is not None:
+            myData = {'tempreture' : NRF_data[1], 'smoke': NRF_data[0], 'humidity': NRF_data[2]}
+            client.publishEvent("input", "json", myData)
+
+except ibmiotf.ConnectionException  as e:
+    print(e)
+
