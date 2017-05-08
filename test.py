@@ -163,14 +163,15 @@ def NRF_receive():
 ##### NRFEND
 
 def NRF_command(command):
-    #radio.stopListening()
-    radio.setChannel(pool_arduino[0])
+    radio.setChannel(30)
+    radio.stopListening()
     message = []
     message.append(command)
     while len(message) < 32:
         message.append(0)
     print(message)
     radio.write(message)
+    radio.setChannel(40)
 
 client = None
 
@@ -195,12 +196,6 @@ try:
 
     while True:
         cHardware.manage()
-        NRF_broadcast()
-        NRF_data = NRF_receive()
-        if NRF_data is not None:
-            myData = {'tempreture' : NRF_data[1], 'smoke': NRF_data[0], 'humidity': NRF_data[2]}
-            client.publishEvent("input", "json", myData)
 
 except ibmiotf.ConnectionException  as e:
     print(e)
-

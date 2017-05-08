@@ -1,1 +1,318 @@
 2017-05-07 19:54:27,764   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:03:24,614   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:04:32,506   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:05:47,826   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:06:18,783   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:06:54,515   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:07:02,639   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:07:15,447   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:45:02,629   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:45:25,126   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:46:05,946   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 20:46:33,810   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:14:59,636   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:19:11,689   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:20:54,630   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:22:51,799   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:26:36,785   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:28:36,493   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:29:31,627   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:33:43,640   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:35:44,254   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:38:17,942   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:40:56,594   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:42:14,515   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 21:44:04,089   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:29:16,465   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:39:20,398   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-07 23:39:20,399   ibmiotf.device.Client      INFO    Messages published : 0, life: 605s, rate: 1/0.00s
+2017-05-07 23:39:20,400   ibmiotf.device.Client      INFO    Messages received  : 0, life: 605s, rate: 1/0.00s
+2017-05-07 23:39:20,396   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:39:22,104   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:40:47,805   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:43:17,577   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:45:46,442   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:48:05,573   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:48:50,640   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:49:32,028   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:49:49,965   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:50:07,289   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:51:17,287   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-07 23:52:08,517   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:09,953   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:09,954   ibmiotf.device.Client      INFO    Messages published : 1, life: 842s, rate: 1/842.10s
+2017-05-08 00:06:09,953   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:09,955   ibmiotf.device.Client      INFO    Messages received  : 0, life: 842s, rate: 1/0.00s
+2017-05-08 00:06:11,629   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:11,629   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:11,630   ibmiotf.device.Client      INFO    Messages published : 0, life: 2s, rate: 1/0.00s
+2017-05-08 00:06:11,631   ibmiotf.device.Client      INFO    Messages received  : 0, life: 2s, rate: 1/0.00s
+2017-05-08 00:06:13,303   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:13,304   ibmiotf.device.Client      INFO    Messages published : 1, life: 845s, rate: 1/845.45s
+2017-05-08 00:06:13,304   ibmiotf.device.Client      INFO    Messages received  : 0, life: 845s, rate: 1/0.00s
+2017-05-08 00:06:13,308   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:14,986   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:14,989   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:14,990   ibmiotf.device.Client      INFO    Messages published : 0, life: 6s, rate: 1/0.00s
+2017-05-08 00:06:14,990   ibmiotf.device.Client      INFO    Messages received  : 0, life: 6s, rate: 1/0.00s
+2017-05-08 00:06:16,657   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:16,657   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:16,658   ibmiotf.device.Client      INFO    Messages published : 1, life: 849s, rate: 1/848.81s
+2017-05-08 00:06:16,659   ibmiotf.device.Client      INFO    Messages received  : 0, life: 849s, rate: 1/0.00s
+2017-05-08 00:06:18,351   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:18,353   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:18,355   ibmiotf.device.Client      INFO    Messages published : 0, life: 9s, rate: 1/0.00s
+2017-05-08 00:06:18,356   ibmiotf.device.Client      INFO    Messages received  : 0, life: 9s, rate: 1/0.00s
+2017-05-08 00:06:20,041   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:20,042   ibmiotf.device.Client      INFO    Messages published : 1, life: 852s, rate: 1/852.19s
+2017-05-08 00:06:20,042   ibmiotf.device.Client      INFO    Messages received  : 0, life: 852s, rate: 1/0.00s
+2017-05-08 00:06:20,044   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:21,732   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:21,732   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:21,733   ibmiotf.device.Client      INFO    Messages published : 0, life: 13s, rate: 1/0.00s
+2017-05-08 00:06:21,734   ibmiotf.device.Client      INFO    Messages received  : 0, life: 13s, rate: 1/0.00s
+2017-05-08 00:06:23,404   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:23,410   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:23,415   ibmiotf.device.Client      INFO    Messages published : 1, life: 856s, rate: 1/855.56s
+2017-05-08 00:06:23,418   ibmiotf.device.Client      INFO    Messages received  : 0, life: 856s, rate: 1/0.00s
+2017-05-08 00:06:25,102   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:25,102   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:25,103   ibmiotf.device.Client      INFO    Messages published : 0, life: 16s, rate: 1/0.00s
+2017-05-08 00:06:25,103   ibmiotf.device.Client      INFO    Messages received  : 0, life: 16s, rate: 1/0.00s
+2017-05-08 00:06:27,768   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:27,768   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:27,770   ibmiotf.device.Client      INFO    Messages published : 1, life: 860s, rate: 1/859.92s
+2017-05-08 00:06:27,771   ibmiotf.device.Client      INFO    Messages received  : 0, life: 860s, rate: 1/0.00s
+2017-05-08 00:06:30,427   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:30,428   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:30,428   ibmiotf.device.Client      INFO    Messages published : 0, life: 21s, rate: 1/0.00s
+2017-05-08 00:06:30,429   ibmiotf.device.Client      INFO    Messages received  : 0, life: 21s, rate: 1/0.00s
+2017-05-08 00:06:33,107   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:33,108   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:33,108   ibmiotf.device.Client      INFO    Messages published : 1, life: 865s, rate: 1/865.26s
+2017-05-08 00:06:33,109   ibmiotf.device.Client      INFO    Messages received  : 0, life: 865s, rate: 1/0.00s
+2017-05-08 00:06:35,781   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:36,812   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:36,812   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:36,813   ibmiotf.device.Client      INFO    Messages published : 1, life: 869s, rate: 1/868.96s
+2017-05-08 00:06:36,814   ibmiotf.device.Client      INFO    Messages received  : 0, life: 869s, rate: 1/0.00s
+2017-05-08 00:06:39,495   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:39,495   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:39,496   ibmiotf.device.Client      INFO    Messages published : 0, life: 3s, rate: 1/0.00s
+2017-05-08 00:06:39,496   ibmiotf.device.Client      INFO    Messages received  : 0, life: 3s, rate: 1/0.00s
+2017-05-08 00:06:42,213   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:42,213   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:42,213   ibmiotf.device.Client      INFO    Messages published : 1, life: 874s, rate: 1/874.36s
+2017-05-08 00:06:42,214   ibmiotf.device.Client      INFO    Messages received  : 0, life: 874s, rate: 1/0.00s
+2017-05-08 00:06:44,902   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:44,902   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:44,903   ibmiotf.device.Client      INFO    Messages published : 0, life: 9s, rate: 1/0.00s
+2017-05-08 00:06:44,904   ibmiotf.device.Client      INFO    Messages received  : 0, life: 9s, rate: 1/0.00s
+2017-05-08 00:06:47,618   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:47,618   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:47,619   ibmiotf.device.Client      INFO    Messages published : 1, life: 880s, rate: 1/879.77s
+2017-05-08 00:06:47,620   ibmiotf.device.Client      INFO    Messages received  : 0, life: 880s, rate: 1/0.00s
+2017-05-08 00:06:49,309   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:49,309   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:49,309   ibmiotf.device.Client      INFO    Messages published : 0, life: 13s, rate: 1/0.00s
+2017-05-08 00:06:49,310   ibmiotf.device.Client      INFO    Messages received  : 0, life: 13s, rate: 1/0.00s
+2017-05-08 00:06:52,006   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:52,006   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:52,007   ibmiotf.device.Client      INFO    Messages published : 1, life: 884s, rate: 1/884.16s
+2017-05-08 00:06:52,008   ibmiotf.device.Client      INFO    Messages received  : 0, life: 884s, rate: 1/0.00s
+2017-05-08 00:06:53,700   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:53,700   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:53,701   ibmiotf.device.Client      INFO    Messages published : 0, life: 18s, rate: 1/0.00s
+2017-05-08 00:06:53,702   ibmiotf.device.Client      INFO    Messages received  : 0, life: 18s, rate: 1/0.00s
+2017-05-08 00:06:55,420   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:55,421   ibmiotf.device.Client      INFO    Messages published : 1, life: 888s, rate: 1/887.57s
+2017-05-08 00:06:55,421   ibmiotf.device.Client      INFO    Messages received  : 0, life: 888s, rate: 1/0.00s
+2017-05-08 00:06:55,428   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:57,113   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:57,113   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:57,114   ibmiotf.device.Client      INFO    Messages published : 0, life: 21s, rate: 1/0.00s
+2017-05-08 00:06:57,115   ibmiotf.device.Client      INFO    Messages received  : 0, life: 21s, rate: 1/0.00s
+2017-05-08 00:06:59,800   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:06:59,801   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:06:59,803   ibmiotf.device.Client      INFO    Messages published : 1, life: 892s, rate: 1/891.95s
+2017-05-08 00:06:59,805   ibmiotf.device.Client      INFO    Messages received  : 0, life: 892s, rate: 1/0.00s
+2017-05-08 00:07:02,468   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:02,469   ibmiotf.device.Client      INFO    Messages published : 0, life: 26s, rate: 1/0.00s
+2017-05-08 00:07:02,469   ibmiotf.device.Client      INFO    Messages received  : 0, life: 26s, rate: 1/0.00s
+2017-05-08 00:07:02,471   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:06,131   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:06,132   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:06,133   ibmiotf.device.Client      INFO    Messages published : 1, life: 898s, rate: 1/898.28s
+2017-05-08 00:07:06,134   ibmiotf.device.Client      INFO    Messages received  : 0, life: 898s, rate: 1/0.00s
+2017-05-08 00:07:08,826   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:08,826   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:08,827   ibmiotf.device.Client      INFO    Messages published : 0, life: 33s, rate: 1/0.00s
+2017-05-08 00:07:08,828   ibmiotf.device.Client      INFO    Messages received  : 0, life: 33s, rate: 1/0.00s
+2017-05-08 00:07:11,552   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:11,553   ibmiotf.device.Client      INFO    Messages published : 1, life: 904s, rate: 1/903.70s
+2017-05-08 00:07:11,555   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:11,561   ibmiotf.device.Client      INFO    Messages received  : 0, life: 904s, rate: 1/0.00s
+2017-05-08 00:07:14,232   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:14,233   ibmiotf.device.Client      INFO    Messages published : 0, life: 38s, rate: 1/0.00s
+2017-05-08 00:07:14,232   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:14,233   ibmiotf.device.Client      INFO    Messages received  : 0, life: 38s, rate: 1/0.00s
+2017-05-08 00:07:17,974   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:17,974   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:17,975   ibmiotf.device.Client      INFO    Messages published : 1, life: 910s, rate: 1/910.12s
+2017-05-08 00:07:17,976   ibmiotf.device.Client      INFO    Messages received  : 0, life: 910s, rate: 1/0.00s
+2017-05-08 00:07:21,634   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:21,637   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:21,645   ibmiotf.device.Client      INFO    Messages published : 0, life: 46s, rate: 1/0.00s
+2017-05-08 00:07:21,653   ibmiotf.device.Client      INFO    Messages received  : 0, life: 46s, rate: 1/0.00s
+2017-05-08 00:07:25,359   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:25,360   ibmiotf.device.Client      INFO    Messages published : 1, life: 918s, rate: 1/917.51s
+2017-05-08 00:07:25,361   ibmiotf.device.Client      INFO    Messages received  : 0, life: 918s, rate: 1/0.00s
+2017-05-08 00:07:25,370   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:28,050   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:28,050   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:28,051   ibmiotf.device.Client      INFO    Messages published : 0, life: 52s, rate: 1/0.00s
+2017-05-08 00:07:28,052   ibmiotf.device.Client      INFO    Messages received  : 0, life: 52s, rate: 1/0.00s
+2017-05-08 00:07:31,716   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:31,718   ibmiotf.device.Client      INFO    Messages published : 1, life: 924s, rate: 1/923.87s
+2017-05-08 00:07:31,719   ibmiotf.device.Client      INFO    Messages received  : 0, life: 924s, rate: 1/0.00s
+2017-05-08 00:07:31,718   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:35,414   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:35,414   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:35,416   ibmiotf.device.Client      INFO    Messages published : 0, life: 59s, rate: 1/0.00s
+2017-05-08 00:07:35,419   ibmiotf.device.Client      INFO    Messages received  : 0, life: 59s, rate: 1/0.00s
+2017-05-08 00:07:39,116   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:39,116   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:39,118   ibmiotf.device.Client      INFO    Messages published : 2, life: 931s, rate: 1/465.63s
+2017-05-08 00:07:39,119   ibmiotf.device.Client      INFO    Messages received  : 0, life: 931s, rate: 1/0.00s
+2017-05-08 00:07:42,827   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:42,828   ibmiotf.device.Client      INFO    Messages published : 0, life: 67s, rate: 1/0.00s
+2017-05-08 00:07:42,829   ibmiotf.device.Client      INFO    Messages received  : 0, life: 67s, rate: 1/0.00s
+2017-05-08 00:07:42,831   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:46,512   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:46,512   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:46,512   ibmiotf.device.Client      INFO    Messages published : 2, life: 939s, rate: 1/469.33s
+2017-05-08 00:07:46,513   ibmiotf.device.Client      INFO    Messages received  : 0, life: 939s, rate: 1/0.00s
+2017-05-08 00:07:50,177   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:50,178   ibmiotf.device.Client      INFO    Messages published : 0, life: 74s, rate: 1/0.00s
+2017-05-08 00:07:50,179   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:50,179   ibmiotf.device.Client      INFO    Messages received  : 0, life: 74s, rate: 1/0.00s
+2017-05-08 00:07:53,867   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:53,867   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:53,868   ibmiotf.device.Client      INFO    Messages published : 2, life: 946s, rate: 1/473.01s
+2017-05-08 00:07:53,869   ibmiotf.device.Client      INFO    Messages received  : 0, life: 946s, rate: 1/0.00s
+2017-05-08 00:07:57,558   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:07:57,563   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:07:57,571   ibmiotf.device.Client      INFO    Messages published : 0, life: 81s, rate: 1/0.00s
+2017-05-08 00:07:57,593   ibmiotf.device.Client      INFO    Messages received  : 0, life: 81s, rate: 1/0.00s
+2017-05-08 00:08:01,296   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:01,297   ibmiotf.device.Client      INFO    Messages published : 2, life: 953s, rate: 1/476.72s
+2017-05-08 00:08:01,298   ibmiotf.device.Client      INFO    Messages received  : 0, life: 953s, rate: 1/0.00s
+2017-05-08 00:08:01,306   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:04,966   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:04,970   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:04,978   ibmiotf.device.Client      INFO    Messages published : 0, life: 89s, rate: 1/0.00s
+2017-05-08 00:08:04,986   ibmiotf.device.Client      INFO    Messages received  : 0, life: 89s, rate: 1/0.00s
+2017-05-08 00:08:08,700   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:08,701   ibmiotf.device.Client      INFO    Messages published : 2, life: 961s, rate: 1/480.43s
+2017-05-08 00:08:08,701   ibmiotf.device.Client      INFO    Messages received  : 0, life: 961s, rate: 1/0.00s
+2017-05-08 00:08:08,708   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:12,370   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:12,371   ibmiotf.device.Client      INFO    Messages published : 0, life: 96s, rate: 1/0.00s
+2017-05-08 00:08:12,372   ibmiotf.device.Client      INFO    Messages received  : 0, life: 96s, rate: 1/0.00s
+2017-05-08 00:08:12,373   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:16,076   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:16,076   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:16,078   ibmiotf.device.Client      INFO    Messages published : 2, life: 968s, rate: 1/484.11s
+2017-05-08 00:08:16,079   ibmiotf.device.Client      INFO    Messages received  : 0, life: 968s, rate: 1/0.00s
+2017-05-08 00:08:19,770   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:19,773   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:19,775   ibmiotf.device.Client      INFO    Messages published : 0, life: 104s, rate: 1/0.00s
+2017-05-08 00:08:19,788   ibmiotf.device.Client      INFO    Messages received  : 0, life: 104s, rate: 1/0.00s
+2017-05-08 00:08:23,536   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:23,537   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:23,538   ibmiotf.device.Client      INFO    Messages published : 2, life: 976s, rate: 1/487.84s
+2017-05-08 00:08:23,538   ibmiotf.device.Client      INFO    Messages received  : 0, life: 976s, rate: 1/0.00s
+2017-05-08 00:08:27,197   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:27,201   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:27,220   ibmiotf.device.Client      INFO    Messages published : 0, life: 111s, rate: 1/0.00s
+2017-05-08 00:08:27,237   ibmiotf.device.Client      INFO    Messages received  : 0, life: 111s, rate: 1/0.00s
+2017-05-08 00:08:30,934   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:30,935   ibmiotf.device.Client      INFO    Messages published : 3, life: 983s, rate: 1/327.69s
+2017-05-08 00:08:30,936   ibmiotf.device.Client      INFO    Messages received  : 0, life: 983s, rate: 1/0.00s
+2017-05-08 00:08:30,946   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:34,599   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:34,600   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:34,606   ibmiotf.device.Client      INFO    Messages published : 0, life: 118s, rate: 1/0.00s
+2017-05-08 00:08:34,610   ibmiotf.device.Client      INFO    Messages received  : 0, life: 118s, rate: 1/0.00s
+2017-05-08 00:08:38,316   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:38,317   ibmiotf.device.Client      INFO    Messages published : 4, life: 990s, rate: 1/247.62s
+2017-05-08 00:08:38,318   ibmiotf.device.Client      INFO    Messages received  : 0, life: 990s, rate: 1/0.00s
+2017-05-08 00:08:38,325   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:42,010   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:42,010   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:42,016   ibmiotf.device.Client      INFO    Messages published : 0, life: 126s, rate: 1/0.00s
+2017-05-08 00:08:42,028   ibmiotf.device.Client      INFO    Messages received  : 0, life: 126s, rate: 1/0.00s
+2017-05-08 00:08:45,731   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:45,731   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:45,731   ibmiotf.device.Client      INFO    Messages published : 5, life: 998s, rate: 1/199.58s
+2017-05-08 00:08:45,732   ibmiotf.device.Client      INFO    Messages received  : 0, life: 998s, rate: 1/0.00s
+2017-05-08 00:08:49,402   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:49,402   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:49,403   ibmiotf.device.Client      INFO    Messages published : 0, life: 133s, rate: 1/0.00s
+2017-05-08 00:08:49,403   ibmiotf.device.Client      INFO    Messages received  : 0, life: 133s, rate: 1/0.00s
+2017-05-08 00:08:53,101   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:53,102   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:53,105   ibmiotf.device.Client      INFO    Messages published : 5, life: 1005s, rate: 1/201.05s
+2017-05-08 00:08:53,105   ibmiotf.device.Client      INFO    Messages received  : 0, life: 1005s, rate: 1/0.00s
+2017-05-08 00:08:56,797   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:08:56,797   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:08:56,799   ibmiotf.device.Client      INFO    Messages published : 0, life: 141s, rate: 1/0.00s
+2017-05-08 00:08:56,799   ibmiotf.device.Client      INFO    Messages received  : 0, life: 141s, rate: 1/0.00s
+2017-05-08 00:09:00,500   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:09:00,500   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 00:09:00,503   ibmiotf.device.Client      INFO    Messages published : 5, life: 1013s, rate: 1/202.53s
+2017-05-08 00:09:00,506   ibmiotf.device.Client      INFO    Messages received  : 0, life: 1013s, rate: 1/0.00s
+2017-05-08 00:10:40,620   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:12:21,926   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:14:11,506   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:16:08,256   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:17:08,592   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:17:23,536   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:17:43,288   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 00:20:44,068   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:20:19,364   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:21:18,015   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:24:33,714   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:25:40,816   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:33:13,485   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:33:13,489   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 09:33:13,490   ibmiotf.device.Client      INFO    Messages published : 1, life: 453s, rate: 1/453.35s
+2017-05-08 09:33:13,490   ibmiotf.device.Client      INFO    Messages received  : 0, life: 453s, rate: 1/0.00s
+2017-05-08 09:33:15,169   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 09:33:15,169   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:33:15,171   ibmiotf.device.Client      INFO    Messages published : 0, life: 2s, rate: 1/0.00s
+2017-05-08 09:33:15,171   ibmiotf.device.Client      INFO    Messages received  : 0, life: 2s, rate: 1/0.00s
+2017-05-08 09:33:16,876   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:33:16,878   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 09:33:16,880   ibmiotf.device.Client      INFO    Messages published : 1, life: 457s, rate: 1/456.74s
+2017-05-08 09:33:16,883   ibmiotf.device.Client      INFO    Messages received  : 0, life: 457s, rate: 1/0.00s
+2017-05-08 09:33:18,571   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 09:33:18,572   ibmiotf.device.Client      INFO    Messages published : 0, life: 6s, rate: 1/0.00s
+2017-05-08 09:33:18,572   ibmiotf.device.Client      INFO    Messages received  : 0, life: 6s, rate: 1/0.00s
+2017-05-08 09:33:18,575   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:33:23,265   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 09:33:23,265   ibmiotf.device.Client      INFO    Messages published : 1, life: 463s, rate: 1/463.12s
+2017-05-08 09:33:23,265   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:33:23,266   ibmiotf.device.Client      INFO    Messages received  : 0, life: 463s, rate: 1/0.00s
+2017-05-08 09:33:25,933   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 09:33:25,933   ibmiotf.device.Client      INFO    Messages published : 0, life: 3s, rate: 1/0.00s
+2017-05-08 09:33:25,934   ibmiotf.device.Client      INFO    Messages received  : 0, life: 3s, rate: 1/0.00s
+2017-05-08 09:33:25,943   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:33:28,615   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:33:28,615   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-05-08 09:33:28,635   ibmiotf.device.Client      INFO    Messages published : 1, life: 468s, rate: 1/468.49s
+2017-05-08 09:33:28,653   ibmiotf.device.Client      INFO    Messages received  : 0, life: 468s, rate: 1/0.00s
+2017-05-08 09:33:35,659   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:35:26,150   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:39:10,414   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
+2017-05-08 09:53:49,064   ibmiotf.device.Client      INFO    Connected successfully: d:kjmozg:raspberry-leoniknik-0417:raspberry-leo-0417
